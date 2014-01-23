@@ -40,7 +40,7 @@ function start() {
 
 function stop() {
     if (is_running); then
-        neo4j-cli $NEO4J_CLI SHUTDOWN
+        ${NEO4J_BIN_DIR}/neo4j-cli $NEO4J_CLI SHUTDOWN
         if [ $? -eq 0 ]; then
             exit 0
         fi
