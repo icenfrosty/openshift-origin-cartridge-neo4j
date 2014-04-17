@@ -1,7 +1,7 @@
 Name: neo4jtest
 Cartridge-Short-Name: NEO4J
 Display-Name: NEO4J
-Description: "Neo4j is an open-source, high-performance, enterprise-grade NOSQL graph database."
+Description: "Test-Truncated"
 Version: '1.9'
 License: GNU GENERAL PUBLIC LICENSE
 License-Url: 
@@ -19,28 +19,28 @@ Help-Topics:
 Cart-Data:
   - Key: OPENSHIFT_NEO4J_LOG_DIR
     Type: environment
-    Description: "Directory to store application log files."
+    Description: "Test-Truncated"
   - Key: OPENSHIFT_TMP_DIR
     Type: environment
-    Description: "Directory to store application temporary files."
+    Description: "Test-Truncated"
   - Key: OPENSHIFT_REPO_DIR
     Type: environment
-    Description: "Application root directory where application files reside. This directory is reset every time you do a git-push"
+    Description: "Test-Truncated"
   - Key: OPENSHIFT_APP_DNS
     Type: environment
-    Description: "Fully qualified domain name for the application."
+    Description: "Test-Truncated"
   - Key: OPENSHIFT_APP_NAME
     Type: environment
     Description: "Application name"
   - Key: OPENSHIFT_DATA_DIR
     Type: environment
-    Description: "Directory to store application data files. Preserved across git-pushes. Not shared across gears."
+    Description: "Test-Truncated"
   - Key: OPENSHIFT_APP_UUID
     Type: environment
-    Description: "Unique ID which identified the application. Does not change between gears."
+    Description: "Test-Truncated"
   - Key: OPENSHIFT_GEAR_UUID
     Type: environment
-    Description: "Unique ID which identified the gear. This value changes between gears."
+    Description: "Test-Truncated"
 Provides:
   - neo4j-1.9
   - "neo4j"
