@@ -2,13 +2,13 @@ Name: neo4jtest
 Cartridge-Short-Name: NEO4J
 Display-Name: NEO4J
 Description: "Test-Truncated"
-Version: '1.9'
+Version: '1.9.7'
 License: GNU GENERAL PUBLIC LICENSE
 License-Url: 
 Vendor: Shekhar Gulati
-Cartridge-Version: 0.0.1
+Cartridge-Version: 0.0.2
 Cartridge-Vendor: neo4j
-Source-Url: https://github.com/dzotic/openshift-origin-cartridge-neo4j.git
+Source-Url: https://github.com/icenfrosty/openshift-origin-cartridge-neo4j.git
 Categories:
   - service
   - database
@@ -42,7 +42,7 @@ Cart-Data:
     Type: environment
     Description: "Test-Truncated"
 Provides:
-  - neo4j-1.9
+  - neo4j-1.9.7
   - "neo4j"
 Scaling:
   Min: 1
